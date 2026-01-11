@@ -78,8 +78,22 @@ const handleMove = () => {
 
 }
 
-const getPieceUnicode = () => {
-
+const getPieceUnicode = (piece) => {
+  const unicodePieces = {
+        K: "♔",  // King
+        Q: "♕",  // Queen
+        R: "♖",  // Rook
+        B: "♗",  // Bishop
+        N: "♘",  // Knight
+        P: "♙",  // Pawn
+        k: "♚",  // King
+        q: "♛",  // Queen
+        r: "♜",  // Rook
+        b: "♝",  // Bishop
+        n: "♞",  // Knight
+        p: "♟"   // Pawn
+  }
+  return unicodePieces[piece.type] || "";
 }
 
 renderBoard();
