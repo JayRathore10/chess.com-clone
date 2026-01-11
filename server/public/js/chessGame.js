@@ -1,6 +1,6 @@
 const socket = io();
 const chess = new Chess();
-const boardElement = document.querySelector("#chessboard");
+const boardElement = document.querySelector(".chessboard");
 
 let draggedPiece = null;
 let sourceSquare = null;
@@ -45,7 +45,7 @@ const renderBoard = () => {
           }
         });
 
-        pieceElement.addEventListener("dragned", () => {
+        pieceElement.addEventListener("dragend", () => {
           draggedPiece = null;
           sourceSquare = null;
         });
@@ -70,6 +70,12 @@ const renderBoard = () => {
       boardElement.appendChild(squareElement);
     });
   });
+
+  if(playerRole === "b"){
+    boardElement.classList.add("flipped");
+  }else {
+    boardElement.classList.remove("flipped");
+  }
 
 }
 
