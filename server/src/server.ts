@@ -3,7 +3,7 @@ import app from "./app";
 import { connectDB } from "./configs/db.config";
 import http from "http";
 import {Server} from 'socket.io';
-import { Chess, QUEEN } from "chess.js";
+import { Chess } from "chess.js";
 
 const PORT = process.env.PORT || 3000;
 const server = http.createServer(app);
@@ -17,7 +17,7 @@ export interface playerInterface {
   black ?: string 
 }
 let players : playerInterface = {};
-let currentPlayer = "W";
+let currentPlayer = "w";
 
 io.on("connection" ,(uniqueSocket :Socket)=>{
   console.log("Backend Connected" , uniqueSocket.id);

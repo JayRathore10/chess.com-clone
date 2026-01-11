@@ -8,7 +8,7 @@ let playerRole = null;
 
 const renderBoard = () => {
   const board = chess.board();
-  board.innerHTML = "";
+  boardElement.innerHTML = "";
 
   board.forEach((row, rowIndex) => {
     row.forEach((square, squareIndex) => {
@@ -45,7 +45,7 @@ const renderBoard = () => {
           }
         });
 
-        pieceElement.addEventListener("dragged", (e) => {
+        pieceElement.addEventListener("dragned", () => {
           draggedPiece = null;
           sourceSquare = null;
         });
@@ -79,7 +79,10 @@ const handleMove = (source , target) => {
     from : `${String.fromCharCode(97 + source.col)}${ 8 - source.row}`, 
     to : `${String.fromCharCode(97 + target.col)}${ 8 - target.row}`, 
     promotion : 'q' , 
-  }
+  } 
+
+  socket.emit("move" , move);
+
 }
 
 const getPieceUnicode = (piece) => {
@@ -100,6 +103,22 @@ const getPieceUnicode = (piece) => {
   return unicodePieces[piece.type] || "";
 }
 
+socket.on("playerRole" , function(role){
+  playerRole = role ;
+  renderBoard();
+})
 
+socket.on("spectatorRole"  , function(){
+  playerRole = null;
+  renderBoard();
+})
 
-renderBoard();
+socket.on("boardState", function(fen){
+  chess.load(fen);
+  renderBoard();
+})
+
+socket.on("move" , function(move){
+  chess.move(move);
+  renderBoard();
+});
