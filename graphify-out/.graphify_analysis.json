@@ -1,0 +1,555 @@
+{
+  "communities": {
+    "0": [
+      "bcrypt",
+      "cookie_parser",
+      "cors",
+      "dotenv",
+      "jest",
+      "jsonwebtoken",
+      "nodemon",
+      "prettier",
+      "server_package_devdependencies",
+      "server_package_devdependencies_bcrypt",
+      "server_package_devdependencies_cookie_parser",
+      "server_package_devdependencies_cors",
+      "server_package_devdependencies_dotenv",
+      "server_package_devdependencies_eslint",
+      "server_package_devdependencies_jest",
+      "server_package_devdependencies_jsonwebtoken",
+      "server_package_devdependencies_nodemon",
+      "server_package_devdependencies_prettier",
+      "server_package_devdependencies_ts_node",
+      "server_package_devdependencies_types_bcrypt",
+      "server_package_devdependencies_types_cookie_parser",
+      "server_package_devdependencies_types_cors",
+      "server_package_devdependencies_types_dotenv",
+      "server_package_devdependencies_types_express",
+      "server_package_devdependencies_types_jest",
+      "server_package_devdependencies_types_jsonwebtoken",
+      "server_package_devdependencies_typescript",
+      "server_package_json_eslint",
+      "server_package_json_typescript",
+      "ts_node",
+      "types_bcrypt",
+      "types_cookie_parser",
+      "types_cors",
+      "types_dotenv",
+      "types_express",
+      "types_jest",
+      "types_jsonwebtoken"
+    ],
+    "1": [
+      "server_src_configs_db_config",
+      "server_src_configs_db_config_connectdb",
+      "server_src_configs_env_config",
+      "server_src_controllers_game_controller",
+      "server_src_controllers_game_controller_creategame",
+      "server_src_controllers_game_controller_generateinvitecode",
+      "server_src_controllers_game_controller_getgamebyid",
+      "server_src_controllers_game_controller_getgamebyinvitecode",
+      "server_src_controllers_game_controller_getlobbystats",
+      "server_src_controllers_game_controller_joingame",
+      "server_src_models_game_model",
+      "server_src_models_game_model_gameinterface",
+      "server_src_models_game_model_gamemodel",
+      "server_src_models_game_model_gameschema",
+      "server_src_routes_auth_routes_router",
+      "server_src_routes_game_routes",
+      "server_src_routes_game_routes_router",
+      "server_src_routes_user_routes_router",
+      "server_src_server",
+      "server_src_server_app",
+      "server_src_server_httpserver",
+      "server_src_server_io",
+      "server_src_server_matchmakingqueue",
+      "server_src_server_matchqueueplayer",
+      "server_src_server_removefromqueue",
+      "server_src_services_chess_service",
+      "server_src_services_chess_service_createchessgame",
+      "server_src_services_chess_service_deletechessgame",
+      "server_src_services_chess_service_games",
+      "server_src_services_chess_service_getchessgame",
+      "server_src_services_chess_service_makechessmove",
+      "server_src_services_chess_service_makemoveresult"
+    ],
+    "2": [
+      "server_src_controllers_auth_controller",
+      "server_src_controllers_auth_controller_changepassword",
+      "server_src_controllers_auth_controller_loginuser",
+      "server_src_controllers_auth_controller_logoutuser",
+      "server_src_controllers_auth_controller_me",
+      "server_src_controllers_auth_controller_registernewuser",
+      "server_src_controllers_user_controller",
+      "server_src_controllers_user_controller_deleteuser",
+      "server_src_controllers_user_controller_getallusers",
+      "server_src_controllers_user_controller_getmyprofile",
+      "server_src_controllers_user_controller_getuserbyid",
+      "server_src_controllers_user_controller_getuserbyusername",
+      "server_src_controllers_user_controller_getuserstats",
+      "server_src_controllers_user_controller_updatemyprofile",
+      "server_src_controllers_user_controller_updateuser",
+      "server_src_middleware_auth_middleware",
+      "server_src_middleware_auth_middleware_extracttoken",
+      "server_src_middleware_auth_middleware_isadminloggedin",
+      "server_src_middleware_auth_middleware_isuserloggedin",
+      "server_src_models_user_model",
+      "server_src_models_user_model_userinterface",
+      "server_src_models_user_model_usermodel",
+      "server_src_models_user_model_userschema",
+      "server_src_routes_auth_routes",
+      "server_src_routes_user_routes",
+      "server_src_types_authrequest_type",
+      "server_src_types_authrequest_type_authrequest",
+      "server_src_types_authrequest_type_userplayload",
+      "server_src_validations_user_validation",
+      "server_src_validations_user_validation_userloginschema",
+      "server_src_validations_user_validation_userschema"
+    ],
+    "3": [
+      "client_tsconfig",
+      "client_tsconfig_compileroptions",
+      "client_tsconfig_compileroptions_allowjs",
+      "client_tsconfig_compileroptions_esmoduleinterop",
+      "client_tsconfig_compileroptions_incremental",
+      "client_tsconfig_compileroptions_isolatedmodules",
+      "client_tsconfig_compileroptions_jsx",
+      "client_tsconfig_compileroptions_lib",
+      "client_tsconfig_compileroptions_module",
+      "client_tsconfig_compileroptions_moduleresolution",
+      "client_tsconfig_compileroptions_noemit",
+      "client_tsconfig_compileroptions_paths",
+      "client_tsconfig_compileroptions_plugins",
+      "client_tsconfig_compileroptions_resolvejsonmodule",
+      "client_tsconfig_compileroptions_skiplibcheck",
+      "client_tsconfig_compileroptions_strict",
+      "client_tsconfig_compileroptions_target",
+      "client_tsconfig_exclude",
+      "client_tsconfig_include",
+      "ref_dom",
+      "ref_dom_iterable",
+      "ref_esnext",
+      "ref_mts",
+      "ref_next_dev_types_ts",
+      "ref_next_env_d_ts",
+      "ref_next_types_ts",
+      "ref_node_modules",
+      "ref_ts",
+      "ref_tsx"
+    ],
+    "4": [
+      "axios",
+      "client_package",
+      "client_package_dependencies",
+      "client_package_dependencies_axios",
+      "client_package_dependencies_chess_js",
+      "client_package_dependencies_lucide_react",
+      "client_package_dependencies_next",
+      "client_package_dependencies_react",
+      "client_package_dependencies_react_chessboard",
+      "client_package_dependencies_react_dom",
+      "client_package_dependencies_socket_io_client",
+      "client_package_json_chess_js",
+      "client_package_name",
+      "client_package_private",
+      "client_package_scripts",
+      "client_package_scripts_build",
+      "client_package_scripts_dev",
+      "client_package_scripts_lint",
+      "client_package_scripts_start",
+      "client_package_version",
+      "lucide_react",
+      "next",
+      "react",
+      "react_chessboard",
+      "react_dom",
+      "socket_io_client"
+    ],
+    "5": [
+      "client_app_game_page",
+      "client_app_game_page_gamelobbypage",
+      "client_app_game_page_time_controls",
+      "client_app_game_page_timecontroloption",
+      "client_app_layout",
+      "client_app_layout_geistmono",
+      "client_app_layout_geistsans",
+      "client_app_layout_metadata",
+      "client_app_layout_rootlayout",
+      "client_app_page",
+      "client_app_page_homepage",
+      "client_app_profile_page",
+      "client_app_profile_page_profilepage",
+      "client_components_navbar",
+      "client_components_navbar_navbar",
+      "client_lib_api",
+      "client_lib_api_apierror",
+      "client_lib_api_apierror_constructor",
+      "client_lib_api_apifetch",
+      "client_lib_api_fetchoptions",
+      "client_lib_auth_context",
+      "client_lib_auth_context_authcontext",
+      "client_lib_auth_context_authcontexttype",
+      "client_lib_auth_context_authprovider",
+      "client_lib_auth_context_useauth",
+      "client_lib_auth_context_user"
+    ],
+    "6": [
+      "agy_chesslords_project",
+      "agy_clock_timer_system",
+      "agy_cookie_parser_missing",
+      "agy_db_never_connected",
+      "agy_disconnected_chessboard",
+      "agy_elo_rating_system",
+      "agy_friendship_social_system",
+      "agy_inmemory_state_loss",
+      "agy_jwt_cookie_authentication",
+      "agy_jwt_email_mismatch",
+      "agy_matchmaking_system",
+      "agy_mongodb_atlas",
+      "agy_pawn_promotion_missing",
+      "agy_realtime_multiplayer_chess",
+      "agy_separation_of_concerns",
+      "agy_socket_joingame_mismatch",
+      "agy_socketio_event_layer",
+      "agy_unauthenticated_sockets",
+      "tasklist_friendship_system",
+      "tasklist_pawn_promotion_modal",
+      "tasklist_rating_system",
+      "tasklist_socket_auth"
+    ],
+    "7": [
+      "express",
+      "mongoose",
+      "server_package",
+      "server_package_dependencies",
+      "server_package_dependencies_chess_js",
+      "server_package_dependencies_express",
+      "server_package_dependencies_mongoose",
+      "server_package_dependencies_socket_io",
+      "server_package_dependencies_zod",
+      "server_package_json_chess_js",
+      "server_package_main",
+      "server_package_name",
+      "server_package_scripts",
+      "server_package_scripts_build",
+      "server_package_scripts_dev",
+      "server_package_scripts_start",
+      "server_package_version",
+      "socket_io",
+      "zod"
+    ],
+    "8": [
+      "client_app_game_gameid_page",
+      "client_app_game_gameid_page_formattime",
+      "client_app_game_gameid_page_gameoverdata",
+      "client_app_game_gameid_page_gamepage",
+      "client_app_game_gameid_page_gamepageprops",
+      "client_app_game_gameid_page_gamestate",
+      "client_app_game_gameid_page_materialdiff",
+      "client_app_game_gameid_page_movedata",
+      "client_app_game_gameid_page_parsecaptured",
+      "client_app_game_gameid_page_piece_symbols",
+      "client_app_game_gameid_page_piece_values",
+      "client_app_game_gameid_page_playerstrip",
+      "client_app_game_gameid_page_playerstripprops",
+      "client_components_chess_chessboard",
+      "client_components_chess_chessboard_chessboard",
+      "client_components_chess_chessboard_chessboardprops",
+      "client_lib_socket",
+      "client_lib_socket_socket"
+    ],
+    "9": [
+      "client_package_devdependencies",
+      "client_package_devdependencies_eslint",
+      "client_package_devdependencies_eslint_config_next",
+      "client_package_devdependencies_tailwindcss",
+      "client_package_devdependencies_tailwindcss_postcss",
+      "client_package_devdependencies_types_node",
+      "client_package_devdependencies_types_react",
+      "client_package_devdependencies_types_react_dom",
+      "client_package_devdependencies_typescript",
+      "client_package_json_eslint",
+      "client_package_json_typescript",
+      "eslint_config_next",
+      "tailwindcss",
+      "tailwindcss_postcss",
+      "types_node",
+      "types_react",
+      "types_react_dom"
+    ],
+    "10": [
+      "server_tsconfig",
+      "server_tsconfig_compileroptions",
+      "server_tsconfig_compileroptions_esmoduleinterop",
+      "server_tsconfig_compileroptions_module",
+      "server_tsconfig_compileroptions_outdir",
+      "server_tsconfig_compileroptions_rootdir",
+      "server_tsconfig_compileroptions_strict",
+      "server_tsconfig_compileroptions_target"
+    ],
+    "11": [
+      "server_src_models_friendship_model",
+      "server_src_models_friendship_model_friendshipinterface",
+      "server_src_models_friendship_model_friendshipmodel",
+      "server_src_models_friendship_model_friendshipschema"
+    ],
+    "12": [
+      "server_src_models_refreshtoken_model",
+      "server_src_models_refreshtoken_model_refreshtokeninterface",
+      "server_src_models_refreshtoken_model_refreshtokenmodel",
+      "server_src_models_refreshtoken_model_refreshtokenschema"
+    ],
+    "13": [
+      "client_app_login_page",
+      "client_app_login_page_loginpage"
+    ],
+    "14": [
+      "client_app_register_page",
+      "client_app_register_page_registerpage"
+    ],
+    "15": [
+      "client_eslint_config",
+      "client_eslint_config_eslintconfig"
+    ],
+    "16": [
+      "client_next_config",
+      "client_next_config_nextconfig"
+    ],
+    "17": [
+      "client_postcss_config",
+      "client_postcss_config_config"
+    ],
+    "18": [
+      "client_public_images_black_2",
+      "client_public_images_black_hr_2"
+    ],
+    "19": [
+      "client_public_images_white_queen",
+      "client_public_images_white_rk"
+    ],
+    "20": [
+      "agy_route_shadowing"
+    ],
+    "21": [
+      "client_agents_nextjs_rules"
+    ],
+    "22": [
+      "client_public_file"
+    ],
+    "23": [
+      "client_public_globe"
+    ],
+    "24": [
+      "client_public_logo"
+    ],
+    "25": [
+      "client_public_next"
+    ],
+    "26": [
+      "client_public_vercel"
+    ],
+    "27": [
+      "client_public_window"
+    ],
+    "28": [
+      "client_readme_nextjs_setup"
+    ],
+    "29": [
+      "readme_chesslords"
+    ],
+    "30": [
+      "server_eslint_config"
+    ],
+    "31": [
+      "tasklist_leaderboard"
+    ],
+    "32": [
+      "tasklist_spectator_mode"
+    ],
+    "33": [
+      "tasklist_testing"
+    ]
+  },
+  "cohesion": {
+    "0": 0.05405405405405406,
+    "1": 0.1028225806451613,
+    "2": 0.13548387096774195,
+    "3": 0.06896551724137931,
+    "4": 0.07692307692307693,
+    "5": 0.13230769230769232,
+    "6": 0.09956709956709957,
+    "7": 0.10526315789473684,
+    "8": 0.1437908496732026,
+    "9": 0.11764705882352941,
+    "10": 0.25,
+    "11": 0.5,
+    "12": 0.5,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0
+  },
+  "gods": [
+    {
+      "id": "client_tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 16
+    },
+    {
+      "id": "client_lib_auth_context_useauth",
+      "label": "useAuth()",
+      "degree": 11
+    },
+    {
+      "id": "agy_chesslords_project",
+      "label": "ChessLords Project",
+      "degree": 9
+    },
+    {
+      "id": "client_tsconfig_include",
+      "label": "include",
+      "degree": 7
+    },
+    {
+      "id": "server_tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 7
+    },
+    {
+      "id": "server_src_services_chess_service_createchessgame",
+      "label": "createChessGame()",
+      "degree": 6
+    },
+    {
+      "id": "client_lib_api_apifetch",
+      "label": "apiFetch()",
+      "degree": 5
+    },
+    {
+      "id": "client_package_scripts",
+      "label": "scripts",
+      "degree": 5
+    },
+    {
+      "id": "server_src_models_user_model_usermodel",
+      "label": "userModel",
+      "degree": 5
+    },
+    {
+      "id": "server_src_types_authrequest_type_authrequest",
+      "label": "authRequest",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Elo Rating System",
+      "target": "ELO/Glicko Rating Calculation",
+      "source_files": [
+        "AGY.md",
+        "taskList.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Friendship & Social System",
+      "target": "Friendship System Implementation",
+      "source_files": [
+        "AGY.md",
+        "taskList.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Pawn Promotion Selection Modal",
+      "target": "Pawn Promotion Not Supported",
+      "source_files": [
+        "taskList.md",
+        "AGY.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Socket Authentication & Security",
+      "target": "Unauthenticated Socket Connections",
+      "source_files": [
+        "taskList.md",
+        "AGY.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "White Queen Chess Piece",
+      "target": "White Rook Chess Piece",
+      "source_files": [
+        "client/public/images/white-queen.png",
+        "client/public/images/white-rk.png"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `devDependencies` connect `Community 0` to `Community 7`?",
+      "why": "High betweenness centrality (0.029) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `devDependencies` connect `Community 9` to `Community 4`?",
+      "why": "High betweenness centrality (0.012) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `GameState`, `MoveData`, `GameOverData` to the rest of the system?",
+      "why": "140 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.1028225806451613 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 2` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.13548387096774195 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 3` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

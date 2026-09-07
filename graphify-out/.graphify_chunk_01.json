@@ -1,0 +1,586 @@
+{
+  "nodes": [
+    {
+      "id": "agy_chesslords_project",
+      "label": "ChessLords Project",
+      "file_type": "concept",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_jwt_cookie_authentication",
+      "label": "JWT Cookie Authentication",
+      "file_type": "concept",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L16",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_realtime_multiplayer_chess",
+      "label": "Real-Time Multiplayer Chess",
+      "file_type": "concept",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_socketio_event_layer",
+      "label": "Socket.io Event Layer",
+      "file_type": "concept",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L44",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_elo_rating_system",
+      "label": "Elo Rating System",
+      "file_type": "concept",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L22",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_matchmaking_system",
+      "label": "Matchmaking & Game Creation",
+      "file_type": "concept",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_clock_timer_system",
+      "label": "Clock & Timer System",
+      "file_type": "concept",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L20",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_friendship_social_system",
+      "label": "Friendship & Social System",
+      "file_type": "concept",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_mongodb_atlas",
+      "label": "MongoDB Atlas Database",
+      "file_type": "concept",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L65",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_db_never_connected",
+      "label": "Database Connection Never Initialized",
+      "file_type": "rationale",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L180",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_cookie_parser_missing",
+      "label": "Missing cookie-parser Middleware",
+      "file_type": "rationale",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L186",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_jwt_email_mismatch",
+      "label": "JWT Payload Email Lookup Mismatch",
+      "file_type": "rationale",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L191",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_route_shadowing",
+      "label": "Route Shadowing /users/me",
+      "file_type": "rationale",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L200",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_socket_joingame_mismatch",
+      "label": "Socket joinGame Signature Mismatch",
+      "file_type": "rationale",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L205",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_disconnected_chessboard",
+      "label": "Disconnected Frontend Chessboard",
+      "file_type": "rationale",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L210",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_pawn_promotion_missing",
+      "label": "Pawn Promotion Not Supported",
+      "file_type": "rationale",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L220",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_inmemory_state_loss",
+      "label": "In-Memory State Loss & Default Position Bug",
+      "file_type": "rationale",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L225",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_unauthenticated_sockets",
+      "label": "Unauthenticated Socket Connections",
+      "file_type": "rationale",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L245",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agy_separation_of_concerns",
+      "label": "Separation of Concerns Architecture",
+      "file_type": "rationale",
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L273",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "tasklist_pawn_promotion_modal",
+      "label": "Pawn Promotion Selection Modal",
+      "file_type": "document",
+      "source_file": "E:\\chess-lords\\taskList.md",
+      "source_location": "L42",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "tasklist_socket_auth",
+      "label": "Socket Authentication & Security",
+      "file_type": "document",
+      "source_file": "E:\\chess-lords\\taskList.md",
+      "source_location": "L66",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "tasklist_rating_system",
+      "label": "ELO/Glicko Rating Calculation",
+      "file_type": "document",
+      "source_file": "E:\\chess-lords\\taskList.md",
+      "source_location": "L72",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "tasklist_spectator_mode",
+      "label": "Spectator Mode",
+      "file_type": "document",
+      "source_file": "E:\\chess-lords\\taskList.md",
+      "source_location": "L75",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "tasklist_friendship_system",
+      "label": "Friendship System Implementation",
+      "file_type": "document",
+      "source_file": "E:\\chess-lords\\taskList.md",
+      "source_location": "L86",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "tasklist_leaderboard",
+      "label": "Leaderboard & Player Stats",
+      "file_type": "document",
+      "source_file": "E:\\chess-lords\\taskList.md",
+      "source_location": "L90",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "tasklist_testing",
+      "label": "Testing Suite (Jest & Supertest)",
+      "file_type": "document",
+      "source_file": "E:\\chess-lords\\taskList.md",
+      "source_location": "L111",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "client_agents_nextjs_rules",
+      "label": "Next.js Agent Rules",
+      "file_type": "document",
+      "source_file": "E:\\chess-lords\\client\\AGENTS.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_chesslords",
+      "label": "ChessLords README",
+      "file_type": "document",
+      "source_file": "E:\\chess-lords\\README.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "client_readme_nextjs_setup",
+      "label": "Next.js Client Setup Guide",
+      "file_type": "document",
+      "source_file": "E:\\chess-lords\\client\\README.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "agy_chesslords_project",
+      "target": "agy_jwt_cookie_authentication",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_chesslords_project",
+      "target": "agy_realtime_multiplayer_chess",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_chesslords_project",
+      "target": "agy_socketio_event_layer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_chesslords_project",
+      "target": "agy_mongodb_atlas",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_chesslords_project",
+      "target": "agy_elo_rating_system",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_chesslords_project",
+      "target": "agy_matchmaking_system",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_chesslords_project",
+      "target": "agy_friendship_social_system",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_chesslords_project",
+      "target": "agy_clock_timer_system",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_db_never_connected",
+      "target": "agy_mongodb_atlas",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_cookie_parser_missing",
+      "target": "agy_jwt_cookie_authentication",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L186",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_jwt_email_mismatch",
+      "target": "agy_jwt_cookie_authentication",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_socket_joingame_mismatch",
+      "target": "agy_socketio_event_layer",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L205",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_disconnected_chessboard",
+      "target": "agy_realtime_multiplayer_chess",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L210",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_pawn_promotion_missing",
+      "target": "agy_realtime_multiplayer_chess",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L220",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_inmemory_state_loss",
+      "target": "agy_realtime_multiplayer_chess",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_unauthenticated_sockets",
+      "target": "agy_socketio_event_layer",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_unauthenticated_sockets",
+      "target": "agy_jwt_cookie_authentication",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_elo_rating_system",
+      "target": "tasklist_rating_system",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "E:\\chess-lords\\taskList.md",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_friendship_social_system",
+      "target": "tasklist_friendship_system",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "E:\\chess-lords\\taskList.md",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "tasklist_socket_auth",
+      "target": "agy_unauthenticated_sockets",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "E:\\chess-lords\\taskList.md",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "tasklist_pawn_promotion_modal",
+      "target": "agy_pawn_promotion_missing",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "E:\\chess-lords\\taskList.md",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_separation_of_concerns",
+      "target": "agy_chesslords_project",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L273",
+      "weight": 1.0
+    },
+    {
+      "source": "agy_inmemory_state_loss",
+      "target": "agy_mongodb_atlas",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "E:\\chess-lords\\AGY.md",
+      "source_location": "L225",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "authentication_bug_cluster",
+      "label": "Authentication Bug Cluster",
+      "nodes": ["agy_cookie_parser_missing", "agy_jwt_email_mismatch", "agy_route_shadowing", "agy_unauthenticated_sockets"],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md"
+    },
+    {
+      "id": "gameplay_bug_cluster",
+      "label": "Gameplay Bug Cluster",
+      "nodes": ["agy_disconnected_chessboard", "agy_pawn_promotion_missing", "agy_inmemory_state_loss", "agy_socket_joingame_mismatch"],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md"
+    },
+    {
+      "id": "core_feature_set",
+      "label": "Core ChessLords Feature Set",
+      "nodes": ["agy_jwt_cookie_authentication", "agy_realtime_multiplayer_chess", "agy_socketio_event_layer", "agy_elo_rating_system", "agy_matchmaking_system", "agy_clock_timer_system"],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "E:\\chess-lords\\AGY.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
